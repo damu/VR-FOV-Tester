@@ -25,7 +25,7 @@ Currently you can get:
 
 ## How to install
 
-The Windows program can just be run like any other PC VR program.
+The Windows program can just be run like any other PC VR program. When using Virtual Desktop you probably have to first start SteamVR from within Virtual Desktop. Depending on your settings it might run directly on Oculus or WMR or whatever without SteamVR, it should not require SteamVR since it's using OpenXR.
 
 To install the APK on Pico simply connect your Pico to your PC via USB, copy the APK file to the Pico (for example into the Download folder), install it by using the Pico File Manager and then you can find it under Apps -> Unknown.  
 Here a video where I copied the APK onto the Pico while using my desktop in VR with Virtual Desktop:
