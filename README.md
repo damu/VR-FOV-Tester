@@ -23,7 +23,7 @@ Currently you can get:
 * a standalone Quest APK which should run on Quest 1, 2, Pro and potential future headsets (tested on Quest 2)
 * a standalone Pico APK which should run on Pico 3, 4 and potential future headsets (tested on Pico 4)
 
-## How to install
+## How to install / run
 
 The Windows program can just be run like any other PC VR program. When using Virtual Desktop you probably have to first start SteamVR from within Virtual Desktop. Depending on your settings it might run directly on Oculus or WMR or whatever without SteamVR, it should not require SteamVR since it's using OpenXR.
 
@@ -33,9 +33,11 @@ Here a video where I copied the APK onto the Pico while using my desktop in VR w
 
 To install the APK on Quest or as an alternative way for Pico you can use SideQuest or something similar.
 
+Since this is Free Software (Open Source) you could also run it out of the Unity editor or build it for other platforms.
+
 ## Motivation
 
-The motivation to make this program came from confusion about the Pico 4 values. I used a FOV testing environment in Steam VR Home but that is not such a great tool. My values seemed to be notably below the FOV values that other users reported. By now I'm relatively sure that it is headshape dependent. Some peoples eyes have a bigger distance to the Pico 4 lenses due to the facial gasket. This should also be the case with other headsets and might explain why some Pimax 8KX reviewers complain about distortions while other are fine with the same headset. Near and far sightedness might also play a role.
+The motivation to make this program came from confusion about the Pico 4 values. I used a FOV testing environment in Steam VR Home but that is not such a great tool. My values seemed to be notably below the FOV values that other users reported. By now I'm relatively sure that it is headshape dependent. Some peoples eyes have a bigger distance to the Pico 4 lenses due to the facial gasket. This should also be the case with other headsets and might explain why some Pimax 8KX reviewers complain about distortions while others are fine with the same headset. Near and far sightedness might also play a role.
 
 ## My values with various VR Headsets
 
