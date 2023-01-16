@@ -47,29 +47,12 @@ The motivation to make this program came from confusion about the Pico 4 values.
 
 ## My values with various VR Headsets
 
-### Quest 2
-
-HFOV: 86  
-VFOV: 36+49=85  
-Rendered HFOV: 95  
-Rendered VFOV: 99  
-
-<img width="300px" src="https://user-images.githubusercontent.com/11298027/212572567-599a2bd3-b910-4afd-aa8d-8328a73eebcc.jpg" />
-
-### Pico 4
-
-HFOV: 92  
-VFOV: 43+48=91  
-Rendered HFOV: 99  
-Rendered VFOV: 103  
-
-<img width="300px" src="https://user-images.githubusercontent.com/11298027/212572313-24e65961-3a23-408a-999c-526a55ba6b15.jpeg" />
-
-### Rift S
-
-HFOV: 86  
-VFOV: 39+48=87  
-Rendered HFOV: 94  
-Rendered VFOV: 98  
-
-<img width="300px" src="https://user-images.githubusercontent.com/11298027/212569550-b53868cc-14a3-4b9f-8983-554da74bf30c.jpeg" />
+|               |  Quest 2  | Pico 4 | Rift S |
+| ------------- | --------: | -----: | -----: |
+| HFOV          | 86        | 92     | 86     |
+| VFOV          | 85        | 91     | 87     |
+| Upper VFOV    | 36        | 43     | 39     |
+| Lower VFOV    | 49        | 48     | 48     |
+| Rendered HFOV | 95        | 99     | 94     |
+| Rendered VFOV | 99        | 103    | 98     |
+| | <img width="200px" src="https://user-images.githubusercontent.com/11298027/212572567-599a2bd3-b910-4afd-aa8d-8328a73eebcc.jpg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/212572313-24e65961-3a23-408a-999c-526a55ba6b15.jpeg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/212569550-b53868cc-14a3-4b9f-8983-554da74bf30c.jpeg" /> |
