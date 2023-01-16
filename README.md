@@ -2,6 +2,12 @@
 
 Find out your personal Field of View (FOV) values with a specific VR headset. The values you can get are horizontal FOV (HFOV), vertical FOV (VFOV) and even asymmetric vertical FOV values like for example 40 top and 50 bottom which results in a total vertical FOV of 90. While developing this tool I found out that I see more to the bottom than to the top with every tested headset so I added that feature.
 
+## Downloads
+
+* PC: [VR_FOV_Tester_1.0_PC.zip](https://github.com/damu/VR-FOV-Tester/releases/download/v1.0/VR_FOV_Tester_1.0_PC.zip)
+* Quest standalone: [VR_FOV_Tester_1.0_Quest.apk](https://github.com/damu/VR-FOV-Tester/releases/download/v1.0/VR_FOV_Tester_1.0_Quest.apk)
+* Pico standalone: [VR_FOV_Tester_1.0_Pico.apk](https://github.com/damu/VR-FOV-Tester/releases/download/v1.0/VR_FOV_Tester_1.0_Pico.apk)
+
 ## How to use
 
 * Put on your headset in a normal usage position. So no extra pressing or holding with your hands to get a bigger number.  
@@ -41,7 +47,7 @@ The motivation to make this program came from confusion about the Pico 4 values.
 
 ## My values with various VR Headsets
 
-#### Quest 2
+### Quest 2
 
 HFOV: 86  
 VFOV: 36+49=85  
@@ -50,7 +56,7 @@ Rendered VFOV: 99
 
 <img width="300px" src="https://user-images.githubusercontent.com/11298027/212572567-599a2bd3-b910-4afd-aa8d-8328a73eebcc.jpg" />
 
-#### Pico 4
+### Pico 4
 
 HFOV: 92  
 VFOV: 43+48=91  
@@ -59,7 +65,7 @@ Rendered VFOV: 103
 
 <img width="300px" src="https://user-images.githubusercontent.com/11298027/212572313-24e65961-3a23-408a-999c-526a55ba6b15.jpeg" />
 
-#### Rift S
+### Rift S
 
 HFOV: 86  
 VFOV: 39+48=87  
