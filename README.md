@@ -43,7 +43,7 @@ Since this is Free Software (Open Source) you could also run it out of the Unity
 
 ## Motivation
 
-The motivation to make this program came from confusion about the Pico 4 values. I used a FOV testing environment in Steam VR Home but that is not such a great tool. My values seemed to be notably below the FOV values that other users reported. By now I'm relatively sure that it is headshape dependent. Some peoples eyes have a bigger distance to the Pico 4 lenses due to the facial gasket. This should also be the case with other headsets and might explain why some Pimax 8KX reviewers complain about distortions while others are fine with the same headset. Near and far sightedness might also play a role.
+The motivation to make this program came from confusion about the Pico 4 values. I used a FOV testing environment in Steam VR Home but that is not such a great tool. My values seemed to be notably below the FOV values that other users reported. By now I'm relatively sure that it is headshape dependent. Some users eyes probably have a bigger distance to the Pico 4 lenses due to the facial gasket. This should also be the case with other headsets and might explain why some Pimax 8KX reviewers complain about distortions while others are fine with the same headset. Near and far sightedness might also play a role.
 
 ## My values with various VR Headsets
 
