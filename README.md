@@ -4,9 +4,9 @@ Find out your personal Field of View (FOV) values with a specific VR headset. Th
 
 ## Downloads
 
-* PC: [VR_FOV_Tester_1.1_PC.zip](https://github.com/damu/VR-FOV-Tester/releases/download/v1.1/VR_FOV_Tester_1.1_PC.zip)
-* Quest standalone: [VR_FOV_Tester_1.0_Quest.apk](https://github.com/damu/VR-FOV-Tester/releases/download/v1.1/VR_FOV_Tester_1.1_Quest.apk)
-* Pico standalone: [VR_FOV_Tester_1.0_Pico.apk](https://github.com/damu/VR-FOV-Tester/releases/download/v1.1/VR_FOV_Tester_1.1_Pico.apk)
+* PC: [VR_FOV_Tester_1.1_PC.zip](https://github.com/damu/VR-FOV-Tester/releases/download/v1.1/VR.FOV.Tester.1.1.PC.zip)
+* Quest standalone: [VR_FOV_Tester_1.0_Quest.apk](https://github.com/damu/VR-FOV-Tester/releases/download/v1.1/VR.FOV.Tester.1.1.Quest.apk)
+* Pico standalone: [VR_FOV_Tester_1.0_Pico.apk](https://github.com/damu/VR-FOV-Tester/releases/download/v1.1/VR.FOV.Tester.1.1.Pico.apk)
 
 ## How to use
 
