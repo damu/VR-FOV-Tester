@@ -56,7 +56,3 @@ The motivation to make this program came from confusion about the Pico 4 values.
 | Rendered HFOV | 95        | 99     | 94     |
 | Rendered VFOV | 99        | 103    | 98     |
 | | <img width="200px" src="https://user-images.githubusercontent.com/11298027/213967660-422a293d-f35b-4380-b53d-b86c455c9a08.jpg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/213967693-bd3e3914-c435-4550-afa3-68219e38ddb6.jpeg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/213967727-4faad146-9720-4aa0-ab0f-c3b0adb7252e.jpeg" /> |
-
-
-![OculusScreenshot1674446743](https://user-images.githubusercontent.com/11298027/213967727-4faad146-9720-4aa0-ab0f-c3b0adb7252e.jpeg)
-
