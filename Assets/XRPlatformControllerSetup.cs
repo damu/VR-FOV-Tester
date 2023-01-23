@@ -165,7 +165,7 @@ namespace Unity.Template.VR
             hfov += 30.0f * Time.deltaTime * input_axis.x;  // change the set FOV in an FPS independent way
             vfov += 30.0f * Time.deltaTime * input_axis.y;
             if(vfov_bottom!=0) // if an asymetric vfov has been set, change the top offset as well so that the two vertical bars can be moved independently
-                vfov_bottom -= 10.0f * Time.deltaTime * input_axis.y;
+                vfov_bottom -= 15.0f * Time.deltaTime * input_axis.y;
             vfov_bottom -= 5.0f * Time.deltaTime * ((input_button_trigger?1:0)-(input_button_grip?1:0));
             hfov = Math.Clamp(0,hfov,360);
             vfov = Math.Clamp(0,vfov,360);
