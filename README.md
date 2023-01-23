@@ -11,7 +11,7 @@ Find out your personal Field of View (FOV) values with a specific VR headset. Th
 ## How to use
 
 * Put on your headset in a normal usage position. So no extra pressing or holding with your hands to get a bigger number.  
-* Look straight ahead to get values for a normal usage case. When you look to the edge your FOV will be a bit smaller because the position of your pupil changes.  
+* Look straight ahead at the X to get proper values for a normal usage case. When you look to the edge your FOV will be a bit smaller because the position of your pupil changes.  
 * Use any thumbstick to adjust the horizontal and vertical FOV. Move the black bars until you can barely see them anymore.  
 * Since the black bars are hard to see at the corner of your eyes when you look straight ahead you can hold any face button (like A, B, X or Y) to make them blink.  
 * If you also have the effect that one vertical bar disappears while the other is still quite visible you can use the asymetric mode with the trigger and grip buttons to move the lower bar independently. In asymmetric mode the values are displayed as  
@@ -49,10 +49,14 @@ The motivation to make this program came from confusion about the Pico 4 values.
 
 |               |  Quest 2  | Pico 4 | Rift S |
 | ------------- | --------: | -----: | -----: |
-| HFOV          | 86        | 92     | 86     |
-| VFOV          | 85        | 91     | 87     |
-| Upper VFOV    | 36        | 43     | 39     |
-| Lower VFOV    | 49        | 48     | 48     |
+| HFOV          | 84        | 94     | 84     |
+| VFOV          | 82        | 92     | 87     |
+| Upper VFOV    | 34        | 45     | 39     |
+| Lower VFOV    | 48        | 47     | 48     |
 | Rendered HFOV | 95        | 99     | 94     |
 | Rendered VFOV | 99        | 103    | 98     |
-| | <img width="200px" src="https://user-images.githubusercontent.com/11298027/212572567-599a2bd3-b910-4afd-aa8d-8328a73eebcc.jpg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/212572313-24e65961-3a23-408a-999c-526a55ba6b15.jpeg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/212569550-b53868cc-14a3-4b9f-8983-554da74bf30c.jpeg" /> |
+| | <img width="200px" src="https://user-images.githubusercontent.com/11298027/213967660-422a293d-f35b-4380-b53d-b86c455c9a08.jpg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/213967693-bd3e3914-c435-4550-afa3-68219e38ddb6.jpeg" /> | <img width="200px" src="https://user-images.githubusercontent.com/11298027/213967727-4faad146-9720-4aa0-ab0f-c3b0adb7252e.jpeg" /> |
+
+
+![OculusScreenshot1674446743](https://user-images.githubusercontent.com/11298027/213967727-4faad146-9720-4aa0-ab0f-c3b0adb7252e.jpeg)
+
