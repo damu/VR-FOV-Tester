@@ -106,7 +106,7 @@ namespace Unity.Template.VR
 
         void Update()
         {
-            InputDevice input_device_left = InputDevices.GetDeviceAtXRNode(xr_input_left);
+            InputDevice input_device_left  = InputDevices.GetDeviceAtXRNode(xr_input_left);
             InputDevice input_device_right = InputDevices.GetDeviceAtXRNode(xr_input_right);
             Vector2 input_axis_left;
             Vector2 input_axis_right;
@@ -121,7 +121,7 @@ namespace Unity.Template.VR
             bool input_left_joystick;
             bool input_right_joystick;
             input_device_left .TryGetFeatureValue(CommonUsages.primary2DAxis, out input_axis_left);
-            input_device_right.TryGetFeatureValue(CommonUsages.primary2DAxis,out input_axis_right);
+            input_device_right.TryGetFeatureValue(CommonUsages.primary2DAxis, out input_axis_right);
             input_device_left .TryGetFeatureValue(CommonUsages.primaryButton, out input_button_left_primary);
             input_device_right.TryGetFeatureValue(CommonUsages.primaryButton, out input_button_right_primary);
             input_device_left .TryGetFeatureValue(CommonUsages.triggerButton, out input_left_trigger);
@@ -133,12 +133,15 @@ namespace Unity.Template.VR
             input_device_left .TryGetFeatureValue(CommonUsages.primary2DAxisClick, out input_left_joystick);
             input_device_right.TryGetFeatureValue(CommonUsages.primary2DAxisClick, out input_right_joystick);
 
+            Vector3 keyboard_axis = new(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), Input.GetAxisRaw("Vertical_Decoupled"));
+            keyboard_axis.Normalize();
+
             // unify the input of both thumbsticks/touchpads to one vector. This also extends the value range to -2.0 - 2.0 if both thumbsticks are pushed in the same direction but that doesn't matter.
-            Vector2 input_axis = input_axis_left + input_axis_right;
-            bool input_button_trigger = input_left_trigger || input_right_trigger;
-            bool input_button_grip = input_left_grip || input_right_grip;
-            bool input_button_face = input_button_left_primary || input_button_right_primary || input_button_left_secondary || input_button_right_secondary;
-            bool input_button_joystick = input_left_joystick || input_right_joystick;
+            Vector2 input_axis = input_axis_left + input_axis_right + new Vector2(keyboard_axis.x,keyboard_axis.y);
+            bool input_button_trigger = input_left_trigger || input_right_trigger || keyboard_axis.z>0;
+            bool input_button_grip = input_left_grip || input_right_grip || keyboard_axis.z < 0;
+            bool input_button_face = input_button_left_primary || input_button_right_primary || input_button_left_secondary || input_button_right_secondary || Input.GetButton("Jump");
+            bool input_button_joystick = input_left_joystick || input_right_joystick || Input.GetButton("Fire1");
 
             marker_hfov_left_modifier  .transform.localRotation = Quaternion.identity;    // reset the rotation
             marker_hfov_right_modifier .transform.localRotation = Quaternion.identity;
